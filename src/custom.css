@@ -1,0 +1,235 @@
+/* LANDING PAGE */
+.landing-main {
+    @apply p-0
+    md:p-6
+    lg:p-20
+    flex flex-col
+    lg:flex-row
+}
+
+.landing-left {
+    @apply m-4
+    mb-0
+    pt-16
+    lg:pt-0
+    w-11/12
+    lg:w-1/2
+    h-full
+    lg:h-full
+    flex flex-col
+}
+
+.landing-right {
+    @apply m-4
+    mb-16
+    lg:w-1/2 
+    w-11/12
+    flex-grow
+    lg:h-full 
+    overflow-y-auto
+    bg-alternativeColor 
+    rounded-lg 
+    flex flex-col
+}
+
+.landing-listings {
+    @apply box-border
+    h-full
+    w-full 
+    flex flex-row
+    flex-wrap
+    justify-center
+    xl:grid 
+    xl:grid-rows-2 
+    xl:grid-cols-2 
+    gap-4
+    pb-20
+}
+
+/* SIDEBAR */
+.sidebar-options-ul {
+    @apply flex flex-col rounded-lg p-4
+}
+
+.nav-link {
+    @apply p-3
+}
+
+/* DASHBOARD */
+.dashboard-main {
+    @apply p-0
+    md:p-6
+    lg:p-20
+    flex flex-col
+    lg:flex-row 
+    h-full 
+    lg:gap-x-6
+    gap-y-4
+}
+
+.dashboard-left {
+    @apply w-11/12 lg:w-3/12
+    lg:h-full
+    lg:overflow-y-auto
+    bg-whiteColor 
+    p-4 pt-0
+    lg:ml-0 lg:mr-0
+    m-4 mt-24 lg:mt-4
+    rounded-lg
+}
+
+.dashboard-center {
+    @apply w-11/12 lg:w-6/12 
+    lg:h-full
+    lg:overflow-y-auto
+    bg-alternativeColor 
+    p-4
+    m-4
+    lg:ml-0 lg:mr-0
+    rounded-lg
+}
+
+.dashboard-right {
+    @apply w-11/12 lg:w-3/12 
+    /* min-h-96
+    h-auto TODO: the container does not properly extend if these are on */
+    lg:h-full
+    lg:overflow-y-auto 
+    bg-whiteColor 
+    p-4
+    m-4 mb-24
+    lg:ml-0 lg:mr-0
+    pb-32
+    rounded-lg
+}
+
+/* LISTINGS */
+.listings-main {
+    @apply p-0
+    md:p-6
+    lg:p-20
+    flex flex-col
+    items-center
+    lg:items-start
+    h-full
+}
+
+/* SORT BAR */
+
+.sort-bar-section {
+    @apply p-4 mb-6
+    md:mt-0
+    w-[95%]
+    lg:w-full 
+    rounded-lg 
+    bg-alternativeColor 
+    shadow-md 
+    size-fit
+}
+
+/* SINGLE LISTING BOOKING */
+
+.single-main {
+    @apply p-6
+    lg:p-6
+    mt-12
+}
+
+.single-h1 {
+    @apply text-center
+    lg:text-left text-2xl
+    mt-6 lg:mt-0
+}
+
+.div-left-right {
+    @apply w-full h-[90%] 
+    flex flex-col lg:flex-row 
+    gap-y-6
+    lg:gap-x-6
+}
+
+.section-left {
+    @apply flex flex-col 
+    p-4 space-y-3 
+    w-full
+    lg:h-[90%]
+    bg-whiteColor 
+    rounded-lg 
+    lg:overflow-y-auto
+}
+
+.section-right {
+    @apply flex flex-col 
+    space-y-2
+    p-4
+    w-full lg:h-[90%] 
+    bg-whiteColor 
+    rounded-lg
+    pb-24
+    lg:pb-0
+}
+
+.div-cale-mini {
+    @apply flex flex-col 
+    md:flex-row 
+    rounded-lg mt-0 w-full gap-4 sm:gap-6
+}
+
+.div-calendar {
+    @apply flex-1 w-full
+    md:w-1/4
+    lg:w-1/2
+    max-w-full 
+    sm:max-w-xl 
+    mx-auto
+    p-4 
+    bg-whiteColor 
+    rounded-lg
+}
+
+.div-mini-form {
+    @apply w-full
+    md:w-1/4
+    lg:w-1/2
+    p-4
+    flex flex-col 
+    justify-center
+    lg:justify-start 
+    items-center 
+    bg-whiteColor 
+    text-center 
+    min-h-[400px] 
+    lg:z-50
+}
+
+/* ABOUT */
+
+.about-main {
+    @apply p-6
+    md:p-6
+    lg:p-20
+    pt-0
+    flex flex-col
+}
+
+/* BUTTON STYLING */
+
+.form-button {
+    @apply bg-logoColor text-white font-medium rounded-full 
+    py-2 px-6 mt-4 w-full transition-transform transform 
+    active:scale-95 hover:bg-backgroundColor hover:shadow-lg 
+    transition-shadow
+}
+
+/* LINK STYLING */
+
+.classic-link {
+    @apply hover:text-logoColor
+}
+
+/* LISTING FORM */
+
+.listing-form-div {
+    @apply flex flex-row items-center
+    p-2 mb-4
+}

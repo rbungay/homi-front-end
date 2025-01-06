@@ -1,0 +1,22 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  padding: 5rem; /* for small screens, do 5rem for large screens */
+  width: 100%;
+  height: 100%;
+}
